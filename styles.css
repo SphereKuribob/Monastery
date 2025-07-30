@@ -55,8 +55,8 @@
 .menu p:nth-of-type(7) { top: 62.3%; }
 .menu p:nth-of-type(8) { top: 66.6%; }
 
-/* 9th p tag content changes on hover */
-.menu p:nth-of-type(9) {
+/* 17th p tag content changes on hover */
+.menu p:nth-of-type(17) {
     top: 83.6%; 
     left: 12%; 
     color: rgb(249, 245, 245);
@@ -68,44 +68,69 @@
     white-space: normal;
 }
 
-.menu p:nth-of-type(9)::before {
+.menu p:nth-of-type(17)::before {
     content: "Hover over each category to get a brief description of them. Click to view the full guide!";
 }
 
-.menu p:nth-of-type(1):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(1):hover ~ p:nth-of-type(17)::before {
     content: "The fastest Ecclesia category, which can be done in under 25 minutes! Use Hyperspeed and Memory Corruption to destroy the game!";
 }
 
-.menu p:nth-of-type(2):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(2):hover ~ p:nth-of-type(17)::before {
     content: "The initial breaking point of the game. Take advantage of the new Magical Ticket Glitch to beat the game in 30 minutes!";
 }
 
-.menu p:nth-of-type(3):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(3):hover ~ p:nth-of-type(17)::before {
     content: "The original speedrun category. Become a master of Ecclesia movement with this difficult run!";
 }
 
-.menu p:nth-of-type(4):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(4):hover ~ p:nth-of-type(17)::before {
     content: "Take advantage of Max Attribute Points and powerful Glyphs to demolish every obstacle in your way!";
 }
 
-.menu p:nth-of-type(5):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(5):hover ~ p:nth-of-type(17)::before {
     content: "'You can't hit me' - Teleport across the map with Albus and use his powerful Agartha to destroy Dracula!";
 }
 
-.menu p:nth-of-type(6):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(6):hover ~ p:nth-of-type(17)::before {
     content: "The ultimate Ecclesia challenge. Skillfully navigate Max Level 1 Hard Mode, where death is only 2-3 hits away.";
 }
 
-.menu p:nth-of-type(7):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(7):hover ~ p:nth-of-type(17)::before {
     content: "Spice up your gameplay with this amazing Randomizer by apple_for_you! Create your own routes with randomized item and glyph locations!";
 }
 
-.menu p:nth-of-type(8):hover ~ p:nth-of-type(9)::before {
+.menu p:nth-of-type(8):hover ~ p:nth-of-type(17)::before {
     content: "Need more help? Found something wrong with the site? Click here to contact me or the community!";
 }
 
+.menu p:nth-of-type(10):hover ~ p:nth-of-type(17)::before {
+    content: "If you're new or just need a refresher, visit this guide to understand the basics of Ecclesia speedrunning.";
+}
+
+.menu p:nth-of-type(11):hover ~ p:nth-of-type(17)::before {
+    content: "Familiarize yourself with the locations of all important items to help with the Randomizer or routing!";
+}
+
+.menu p:nth-of-type(12):hover ~ p:nth-of-type(17)::before {
+    content: "Discover the most optimal way to do each quest in the game!";
+}
+
+.menu p:nth-of-type(14):hover ~ p:nth-of-type(17)::before {
+    content: "For reading over this and inspiring me to run this game!";
+}
+
+.menu p:nth-of-type(15):hover ~ p:nth-of-type(17)::before {
+    content: "For discovering new glitches and giving their input on the site.";
+}
+
+.menu p:nth-of-type(16):hover ~ p:nth-of-type(17)::before {
+    content: "For their game knowledge and making the Randomizer.";
+}
+
+
 /* Cursor positioning - aligned with menu items */
-.cursor, .cursor2, .cursor3, .cursor4, .cursor5, .cursor6, .cursor7, .cursor8, .cursor9 {
+.cursor, .cursor2, .cursor3, .cursor4, .cursor5, .cursor6, .cursor7, .cursor8{
     position: absolute;
     width: auto;
     height: auto;
@@ -114,6 +139,55 @@
     opacity: 0;
     visibility: hidden;
     transition: visibility 0.3s ease;
+}
+
+.cursor9, .cursor10, .cursor11{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+    left: 56.0%;
+}
+
+.cursor13, .cursor12, .cursor14 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 999;
+    left: 59.0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+}
+
+.cursor9 {
+    top: 28.5%;
+
+}
+
+.cursor10 {
+    top: 33.5%;
+
+}
+          
+.cursor11 {
+    top: 38.5%;
+ 
+}
+
+.cursor12 {
+    top: 58.5%;
+}
+
+.cursor13 {
+    top: 63.5%;
+}
+
+.cursor14 {
+    top: 68.5%;
 }
 
 /* Position each cursor at the same height as its menu item, to the left */
@@ -157,10 +231,7 @@
 
 }
 
-.cursor9 {
-    top: 84.6%;
-   
-}
+
 
 /* Show cursors on menu item hover */
 .menu p:nth-of-type(1):hover ~ .cursor {
@@ -203,7 +274,32 @@
     visibility: visible;
 }
 
-.menu p:nth-of-type(9):hover ~ .cursor9 {
+.menu p:nth-of-type(10):hover ~ .cursor9 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(11):hover ~ .cursor10 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(12):hover ~ .cursor11 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(14):hover ~ .cursor12 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(15):hover ~ .cursor13 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(16):hover ~ .cursor14 {
     opacity: 1;
     visibility: visible;
 }
@@ -289,4 +385,105 @@ body {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
+/* TextOne image overlay on menu */
+#textOneImage {
+    position: absolute;
+    top: 20%;
+    left: 69%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 300px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+#textTwoImage {
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 300px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Text overlay inside textOne image */
+.review, 
+.menu p:nth-of-type(9),
+.menu p:nth-of-type(10), 
+.menu p:nth-of-type(11),
+.menu p:nth-of-type(12) {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 1.5vw;
+    z-index: 15;
+    margin: 0;
+    padding: 0;
+}
+
+/* Position the 4 text elements inside textOne image */
+.menu p:nth-of-type(9) { /* Review */
+    top: 23.5%;
+    left: 66%;
+}
+
+.menu p:nth-of-type(10) { /* General Mechanics */
+     top: 28.5%;
+    left: 61.5%;
+}
+
+.menu p:nth-of-type(11) { /* Important Item Locations */
+    top: 33.5%;
+    left: 61.5%;
+}
+
+.menu p:nth-of-type(12) { /* Quest Guide */
+    top: 38.5%;
+    left: 61.5%;
+}
+
+/* Text overlay inside textTwo image */
+.review, 
+.menu p:nth-of-type(13),
+.menu p:nth-of-type(14), 
+.menu p:nth-of-type(15),
+.menu p:nth-of-type(16) {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 1.5vw;
+    z-index: 15;
+    margin: 0;
+    padding: 0;
+}
+
+/* Position the 4 text elements inside textTwo image */
+.menu p:nth-of-type(13) { /* Thank You */
+    top: 53.5%;
+    left: 65.5%;
+}
+
+.menu p:nth-of-type(14) { /* LonelyRTA */
+    top: 58.5%;
+    left: 64.5%;
+}
+
+.menu p:nth-of-type(15) { /* Halgorithm */
+    top: 63.5%;
+    left: 64.5%;
+}
+
+.menu p:nth-of-type(16) { /* apple */
+    top: 68.5%;
+    left: 64.5%;
+}
+.help-link:hover {
+    text-decoration: underline;
+    color: #FFD700;
+}
+
+
 
