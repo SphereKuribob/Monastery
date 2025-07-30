@@ -28,7 +28,7 @@
     padding: 0.5vw;
     margin: 0;
     width: auto;
-    left: 18%;
+    left: 20%;
     box-sizing: border-box;
     font-family: 'ITC Tiffany Medium', 'Times New Roman', serif;
 }
@@ -58,9 +58,9 @@
 /* 17th p tag content changes on hover */
 .menu p:nth-of-type(17) {
     top: 83.6%; 
-    left: 12%; 
+    left: 14%; 
     color: rgb(249, 245, 245);
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     padding: 0.3vw;
     width: 90%;
     max-width: 77%;
@@ -135,7 +135,7 @@
     width: auto;
     height: auto;
     z-index: 999;
-    left: 13%;
+    left: 15.5%;
     opacity: 0;
     visibility: hidden;
     transition: visibility 0.3s ease;
