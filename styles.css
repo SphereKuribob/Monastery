@@ -1,0 +1,292 @@
+/* Menu with text overlay */
+.menu {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menuImage {
+    display: block;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    border: 4px solid #FFD700;
+}
+
+.menu p {
+    position: absolute;
+    color: rgb(194, 188, 188);
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    margin: 0;
+    width: auto;
+    left: 18%;
+    box-sizing: border-box;
+    font-family: 'ITC Tiffany Medium', 'Times New Roman', serif;
+}
+
+.menu p a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.menu p a:hover {
+    color: #FFD700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+/* Position each menu item */
+.menu p:nth-of-type(1) { top: 36.5%; }
+.menu p:nth-of-type(2) { top: 40.8%; }
+.menu p:nth-of-type(3) { top: 45.1%; }
+.menu p:nth-of-type(4) { top: 49.4%; }
+.menu p:nth-of-type(5) { top: 53.7%; }
+.menu p:nth-of-type(6) { top: 58.0%; }
+.menu p:nth-of-type(7) { top: 62.3%; }
+.menu p:nth-of-type(8) { top: 66.6%; }
+
+/* 9th p tag content changes on hover */
+.menu p:nth-of-type(9) {
+    top: 83.6%; 
+    left: 12%; 
+    color: rgb(249, 245, 245);
+    font-size: 1.5vw;
+    padding: 0.3vw;
+    width: 90%;
+    max-width: 77%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.menu p:nth-of-type(9)::before {
+    content: "Hover over each category to get a brief description of them. Click to view the full guide!";
+}
+
+.menu p:nth-of-type(1):hover ~ p:nth-of-type(9)::before {
+    content: "The fastest Ecclesia category, which can be done in under 25 minutes! Use Hyperspeed and Memory Corruption to destroy the game!";
+}
+
+.menu p:nth-of-type(2):hover ~ p:nth-of-type(9)::before {
+    content: "The initial breaking point of the game. Take advantage of the new Magical Ticket Glitch to beat the game in 30 minutes!";
+}
+
+.menu p:nth-of-type(3):hover ~ p:nth-of-type(9)::before {
+    content: "The original speedrun category. Become a master of Ecclesia movement with this difficult run!";
+}
+
+.menu p:nth-of-type(4):hover ~ p:nth-of-type(9)::before {
+    content: "Take advantage of Max Attribute Points and powerful Glyphs to demolish every obstacle in your way!";
+}
+
+.menu p:nth-of-type(5):hover ~ p:nth-of-type(9)::before {
+    content: "'You can't hit me' - Teleport across the map with Albus and use his powerful Agartha to destroy Dracula!";
+}
+
+.menu p:nth-of-type(6):hover ~ p:nth-of-type(9)::before {
+    content: "The ultimate Ecclesia challenge. Skillfully navigate Max Level 1 Hard Mode, where death is only 2-3 hits away.";
+}
+
+.menu p:nth-of-type(7):hover ~ p:nth-of-type(9)::before {
+    content: "Spice up your gameplay with this amazing Randomizer by apple_for_you! Create your own routes with randomized item and glyph locations!";
+}
+
+.menu p:nth-of-type(8):hover ~ p:nth-of-type(9)::before {
+    content: "Need more help? Found something wrong with the site? Click here to contact me or the community!";
+}
+
+/* Cursor positioning - aligned with menu items */
+.cursor, .cursor2, .cursor3, .cursor4, .cursor5, .cursor6, .cursor7, .cursor8, .cursor9 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 999;
+    left: 13%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+}
+
+/* Position each cursor at the same height as its menu item, to the left */
+.cursor {
+    top: 37.5%;
+
+}
+
+.cursor2 {
+    top: 41.8%;
+
+}
+
+.cursor3 {
+    top: 46.1%;
+
+}
+
+.cursor4 {
+    top: 50.4%;
+  
+}
+
+.cursor5 {
+    top: 54.7%;
+   
+}
+
+.cursor6 {
+    top: 59.0%;
+   
+}
+
+.cursor7 {
+    top: 63.3%;
+
+}
+
+.cursor8 {
+    top: 67.6%;
+
+}
+
+.cursor9 {
+    top: 84.6%;
+   
+}
+
+/* Show cursors on menu item hover */
+.menu p:nth-of-type(1):hover ~ .cursor {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(2):hover ~ .cursor2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(3):hover ~ .cursor3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(4):hover ~ .cursor4 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(5):hover ~ .cursor5 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(6):hover ~ .cursor6 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(7):hover ~ .cursor7 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(8):hover ~ .cursor8 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu p:nth-of-type(9):hover ~ .cursor9 {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Center the header div */
+.header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background-image: url('img/textOne.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+}
+
+.header h1, .header h3, .header p {
+    margin: 17px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+/* Navbar styling - horizontal, no bullets, centered */
+.navbar {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+
+/* Body background image */
+body {
+    background-image: url('img/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Select Your Run text background */
+.menu h2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 10px auto;
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+

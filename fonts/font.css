@@ -1,0 +1,53 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'Times New Roman Bold';
+    src: url('./Times new roman bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bradley Gratis';
+    src: url('./Bradley Gratis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Tiffany Medium';
+    src: url('./ITC Tiffany Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Felixti';
+    src: url('./Felixti.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Root font variables for easy use */
+:root {
+    --font-times-bold: 'Times New Roman Bold', 'Times New Roman', serif;
+    --font-bradley: 'Bradley Gratis', cursive;
+    --font-tiffany: 'ITC Tiffany Medium', serif;
+    --font-felixti: 'Felixti', sans-serif;
+}
+
+/* Typography Styles */
+h1 {
+    font-family: 'Bradley Gratis', 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: 'ITC Tiffany Medium', 'Times New Roman', serif;
+}
+
+h3 {
+    font-family: 'Felixti', 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+}
