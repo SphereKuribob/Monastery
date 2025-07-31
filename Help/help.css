@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/ruvas.png');
+    background-image: url('../img/kal.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,8 +16,10 @@ body {
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 0;
-    z-index: 1000;
+    z-index: 10001;
+    border-top: 2px solid #FFD700;
     border-bottom: 2px solid #FFD700;
+    margin-top: 0;
 }
 
 .homebar ul {
@@ -44,8 +46,9 @@ body {
 
 .help-section {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 20px;
+    padding-top: 60px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     color: white;
@@ -83,3 +86,16 @@ body {
     border: 2px solid #FFD700;
     border-radius: 8px;
 }
+
+.text-content {
+    position: relative;
+    z-index: 1;
+}
+
+.textBG {
+    position: absolute;
+    z-index: 0;
+    margin-left: -4.3px;
+}
+
+
