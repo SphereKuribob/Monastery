@@ -1,0 +1,16 @@
+body {
+    background-image: url('../imgcastle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #c79e45;
+    margin: 20px 0;
+}

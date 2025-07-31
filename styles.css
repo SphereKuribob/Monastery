@@ -485,5 +485,10 @@ body {
     color: #FFD700;
 }
 
+.help-link a, 
+.help-link a:visited {
+    color: pink !important;
+    text-decoration: none;
+}
 
 
