@@ -12,10 +12,10 @@
     transform: translate(-50%, -50%) scale(var(--scale, 1));
     transform-origin: center;
     box-sizing: border-box;
-    overflow-y: auto; /* Allow vertical scrolling */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; 
+    overflow-x: hidden; 
     z-index: 1000;
-    max-height: 100vh; /* Ensure it doesn't exceed viewport height */
+    max-height: 100vh; 
 }
 
 .ui::-webkit-scrollbar {
@@ -27,5 +27,5 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    overflow: auto; /* Changed from hidden to auto */
+    overflow: auto; 
 }

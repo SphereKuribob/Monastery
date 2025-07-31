@@ -16,7 +16,7 @@ hr {
     margin: 20px 0;
 }
 
-/* General section styling */
+
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ section {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-/* Add background to standalone sections (not content-section or heading) */
+
 section:not(.content-section):not(.heading) {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
@@ -33,7 +33,6 @@ section:not(.content-section):not(.heading) {
     margin-bottom: 30px;
 }
 
-/* Heading section - centered content */
 .heading {
     text-align: center;
     margin-bottom: 40px;
@@ -69,14 +68,14 @@ h3 {
     margin-right: auto;
 }
 
-/* YouTube video styling */
+
 .heading iframe {
     margin: 20px 0;
     border: 4px solid #FFD700;
     border-radius: 8px;
 }
 
-/* Content sections with image and text layout */
+
 .content-section {
     display: flex;
     flex-direction: column;
@@ -95,7 +94,7 @@ h3 {
     border: 2px solid rgba(255, 215, 0, 0.3);
 }
 
-/* Container for the side-by-side content */
+
 .content-row {
     display: flex;
     align-items: flex-start;
@@ -103,7 +102,7 @@ h3 {
     min-height: 400px;
 }
 
-/* Image container - center left */
+
 .image-container {
     flex: 0 0 45%;
     display: flex;
@@ -119,7 +118,7 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Video styling */
+
 .image-container video {
     max-width: 100%;
     height: auto;
@@ -128,14 +127,14 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* General img and video styling (for any not in image-container) */
+
 img, video {
     border: 3px solid #FFD700;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Text container - center right */
+
 .text-container {
     flex: 1;
     display: flex;
@@ -167,7 +166,7 @@ img, video {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
 
-/* General link styling for all sections */
+
 a {
     color: #FFD700;
     text-decoration: none;
@@ -180,7 +179,7 @@ a:hover {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
 
-/* Navigation bar styling */
+
 .homebar {
     position: fixed;
     top: 0;
@@ -216,7 +215,7 @@ a:hover {
     color: #FFD700;
 }
 
-/* Bold text styling */
+
 b, strong, h2 {
     color: #a887e9;
     font-weight: bold;
@@ -227,14 +226,14 @@ b, strong, h2 {
     display: inline-block;
 }
 
-/* Emphasized text styling */
+
 em {
     color: #FFA500 ;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .content-row {
         flex-direction: column;

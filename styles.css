@@ -1,4 +1,4 @@
-/* Menu with text overlay */
+
 .menu {
     position: relative;
     display: inline-block;
@@ -45,7 +45,7 @@
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
 
-/* Position each menu item */
+
 .menu p:nth-of-type(1) { top: 36.5%; }
 .menu p:nth-of-type(2) { top: 40.8%; }
 .menu p:nth-of-type(3) { top: 45.1%; }
@@ -55,7 +55,7 @@
 .menu p:nth-of-type(7) { top: 62.3%; }
 .menu p:nth-of-type(8) { top: 66.6%; }
 
-/* 17th p tag content changes on hover */
+
 .menu p:nth-of-type(17) {
     top: 83.6%; 
     left: 15%; 
@@ -129,7 +129,7 @@
 }
 
 
-/* Cursor positioning - aligned with menu items */
+
 .cursor, .cursor2, .cursor3, .cursor4, .cursor5, .cursor6, .cursor7, .cursor8{
     position: absolute;
     width: auto;
@@ -190,7 +190,7 @@
     top: 68.5%;
 }
 
-/* Position each cursor at the same height as its menu item, to the left */
+
 .cursor {
     top: 37.5%;
 
@@ -233,7 +233,7 @@
 
 
 
-/* Show cursors on menu item hover */
+
 .menu p:nth-of-type(1):hover ~ .cursor {
     opacity: 1;
     visibility: visible;
@@ -304,7 +304,7 @@
     visibility: visible;
 }
 
-/* Center the header div */
+
 .header {
     text-align: center;
     margin: 0 auto;
@@ -332,7 +332,7 @@
 .header a {
     color: #FFD700;
 }
-/* Navbar styling - horizontal, no bullets, centered */
+
 .navbar {
     text-align: center;
     margin: 0 auto;
@@ -367,7 +367,7 @@
     color: #FFD700;
 }
 
-/* Body background image */
+
 body {
     background-image: url('img/home.png');
     background-size: cover;
@@ -378,7 +378,7 @@ body {
     padding: 0;
 }
 
-/* Select Your Run text background */
+
 .menu h2 {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
@@ -389,7 +389,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-/* TextOne image overlay on menu */
+
 #textOneImage {
     position: absolute;
     top: 20%;
@@ -412,7 +412,7 @@ body {
     pointer-events: none;
 }
 
-/* Text overlay inside textOne image */
+
 .review, 
 .menu p:nth-of-type(9),
 .menu p:nth-of-type(10), 
@@ -427,28 +427,28 @@ body {
     padding: 0;
 }
 
-/* Position the 4 text elements inside textOne image */
-.menu p:nth-of-type(9) { /* Review */
+
+.menu p:nth-of-type(9) { 
     top: 23.5%;
     left: 66%;
 }
 
-.menu p:nth-of-type(10) { /* General Mechanics */
+.menu p:nth-of-type(10) { 
      top: 28.5%;
     left: 61.5%;
 }
 
-.menu p:nth-of-type(11) { /* Important Item Locations */
+.menu p:nth-of-type(11) { 
     top: 33.5%;
     left: 61.5%;
 }
 
-.menu p:nth-of-type(12) { /* Quest Guide */
+.menu p:nth-of-type(12) { 
     top: 38.5%;
     left: 61.5%;
 }
 
-/* Text overlay inside textTwo image */
+
 .review, 
 .menu p:nth-of-type(13),
 .menu p:nth-of-type(14), 
@@ -463,23 +463,23 @@ body {
     padding: 0;
 }
 
-/* Position the 4 text elements inside textTwo image */
-.menu p:nth-of-type(13) { /* Thank You */
+
+.menu p:nth-of-type(13) {
     top: 53.5%;
     left: 65.5%;
 }
 
-.menu p:nth-of-type(14) { /* LonelyRTA */
+.menu p:nth-of-type(14) {
     top: 58.5%;
     left: 64.5%;
 }
 
-.menu p:nth-of-type(15) { /* Halgorithm */
+.menu p:nth-of-type(15) { 
     top: 63.5%;
     left: 64.5%;
 }
 
-.menu p:nth-of-type(16) { /* apple */
+.menu p:nth-of-type(16) { 
     top: 68.5%;
     left: 64.5%;
 }
