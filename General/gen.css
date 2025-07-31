@@ -35,7 +35,6 @@ section:not(.content-section):not(.heading) {
 /* Heading section - centered content */
 .heading {
     text-align: center;
-    margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 10px;
@@ -44,7 +43,6 @@ section:not(.content-section):not(.heading) {
 
 .heading h1 {
     font-size: 3em;
-    margin-bottom: 10px;
     color: #FFD700;
 }
 
@@ -66,6 +64,7 @@ h3 {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    color: whitesmoke;
 }
 
 /* YouTube video styling */
