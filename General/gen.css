@@ -34,11 +34,13 @@ section:not(.content-section):not(.heading) {
 
 /* Heading section - centered content */
 .heading {
+    margin-top: 80px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 10px;
     border: 2px solid rgba(255, 215, 0, 0.3);
+    margin-bottom: 40px;
 }
 
 .heading h1 {
@@ -187,6 +189,7 @@ a:hover {
     z-index: 1000;
     border-top: 2px solid #FFD700;
     border-bottom: 2px solid #FFD700;
+
 }
 
 .homebar ul {
@@ -194,6 +197,7 @@ a:hover {
     margin: 0;
     padding: 0 20px;
     display: flex;
+    justify-content: center;
 }
 
 .homebar li {
@@ -235,6 +239,8 @@ p {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+
 
 /* Responsive design */
 @media (max-width: 768px) {
