@@ -1,0 +1,267 @@
+body {
+    background-image: url('../img/albusBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #c79e45;
+    margin: 20px 0;
+}
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+section:not(.content-section):not(.heading) {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.heading {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.heading h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+
+.heading h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #C0C0C0;
+}
+
+h3 {
+   color: #C0C0C0;
+}
+
+
+.heading p {
+    margin: 10px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.heading iframe {
+    margin: 20px 0;
+    border: 4px solid #FFD700;
+    border-radius: 8px;
+}
+
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.content-section h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.2em;
+    color: #FFD700;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+
+.content-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    min-height: 400px;
+}
+
+
+.image-container {
+    flex: 0 0 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.image-container video {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+img, video {
+    border: 3px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border: 1px solid #FFD700;
+}
+
+.text-container p {
+    margin: 15px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.text-container a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.text-container a:hover {
+    color: #FFFF00;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FFFF00;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+
+.homebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    z-index: 1000;
+    border-top: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+.homebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.homebar li {
+    margin-right: 20px;
+}
+
+.homebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.homebar a:hover {
+    color: #FFD700;
+}
+
+
+b, strong, h2 {
+    color: #a887e9;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+
+em {
+    color: #FFA500 ;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+@media (max-width: 768px) {
+    .content-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .image-container {
+        flex: none;
+        width: 100%;
+    }
+    
+    .text-container {
+        padding: 20px;
+    }
+    
+    .heading iframe {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .heading h1 {
+        font-size: 2.2em;
+    }
+    
+    .heading h2 {
+        font-size: 1.4em;
+    }
+}
